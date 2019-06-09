@@ -1,0 +1,9 @@
+README.md:
+	
+	touch README.md
+	echo "THIS IS MY GUESSING GAME PROJECT" > README.md
+	echo "Date & time of creation: " >> README.md
+	date >> README.md
+	echo "Number of code lines: " >> README.md
+	wc -l guessinggame.sh >> README.md
+
